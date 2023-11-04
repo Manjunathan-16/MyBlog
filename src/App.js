@@ -5,12 +5,7 @@ import Blog from "./Component/Blog";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Link to="/" />
-        <Routes>
-          <Route path="/" element={<Blog />} />
-        </Routes>
-      </Router>
+<Blog />
     </div>
   );
 }
